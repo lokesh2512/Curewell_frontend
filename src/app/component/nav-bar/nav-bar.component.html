@@ -1,28 +1,22 @@
 <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#" >CureWell</a>
+      <a class="navbar-brand" [routerLink]="['']" routerLinkActive="router-link-active">CureWell</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarColor01">
         <ul class="navbar-nav me-auto">
           <li class="nav-item">
-            <a class="nav-link active" href="#" data-ol-has-click-handler="">Home
-              <span class="visually-hidden">(current)</span>
-            </a>
+            <a class="nav-link" [routerLink]="['doctor']" routerLinkActive="router-link-active">View Doctors</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" >View Doctors</a>
+            <a class="nav-link" [routerLink]="['specialization']" routerLinkActive="router-link-active">View Specialisation</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">View Specialisation</a>
+            <a class="nav-link" [routerLink]="['today']" routerLinkActive="router-link-active">View Today's surgery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" y
-            >View Today's surgery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Add Doctor</a>
+            <a class="nav-link" [routerLink]="['add']" routerLinkActive="router-link-active">Add Doctor</a>
           </li>
         </ul>
         <form class="d-flex">

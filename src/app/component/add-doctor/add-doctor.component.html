@@ -1,0 +1,25 @@
+<div class="row title"  style="margin-top: 3%;">
+  <h2 align="center" style="color:rgb(25, 116, 161); margin-top: 2%;">Add New Doctor</h2>
+  <h2 align="center" style="color:rgb(25, 116, 161)">*****************</h2>
+  </div>
+  <!--Add angular form logic here-->
+  <form align="center">
+    <table align="center">
+      <tr>
+        <th align="justify" > <label>Doctor Name</label> </th>
+        <th>
+          <!--Add angular form logic here-->
+          <input type="text" style="margin-left:3%;" class="form-control cwinput" name="doctorName">
+        </th>
+      </tr>
+      <tr>
+        <th></th>
+        <th align="center">
+          <button class="btn btn-primary" type="submit"  style="margin: 3%;">Add Doctor</button>
+          <button class="btn btn-primary" style="margin: 3%;" [routerLink]="['/doctor']" routerLinkActive="router-link-active" >Cancel</button>
+        </th>
+  
+    </table>
+    <div style="color:red;text-align:center;">
+    </div>
+  </form>
