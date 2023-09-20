@@ -1,3 +1,12 @@
 .navbar-brand{
     font-weight: bolder;
 }
+.navbar{
+    position: sticky;
+    top: 0;
+}
+.nav-item a:hover {
+    background-color: white;
+    color: black;
+
+}

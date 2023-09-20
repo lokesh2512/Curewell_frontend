@@ -1,8 +1,16 @@
 h4 {
     color: white;
 }
-.tile
-{
-    height: 500px;
-    width: 600px;
+.button {
+    border: 0;
+    color: white;
+    background: rgb(208, 84, 84);
+    padding: 10px;
+}
+.button:hover{
+    background: rgb(68, 188, 228);
+    
+}
+.aa {
+    background-color: rgb(221, 221, 221);
 }
