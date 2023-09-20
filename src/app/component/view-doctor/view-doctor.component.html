@@ -1,0 +1,27 @@
+<h2 align="center" style="margin-top: 2%;">
+    View Doctor
+  </h2>
+  <div class="body">
+    <div class="table-responsive">
+  
+      <table align="center" class="table" style="border:2px solid rgba(220,230,242,1);">
+        <tr style="background-color:rgb(111, 185, 222); font-size:12pt">
+          <th>Doctor Id</th>
+          <th>Doctor Name</th>
+          <th style="text-align:center" colspan="2">Action</th>
+        </tr>
+  
+        <tr style="background-color:white">
+          <!--Add your logic here-->
+          <td>Doctor Id</td>
+          <td>Doctor Name</td>
+          <td> <button class="btn " style="margin-left: 40%;" [routerLink]="['/edit']" routerLinkActive="router-link-active" >Edit Doctor Details</button></td>
+        </tr>
+      </table>
+  
+    </div>
+  </div>
+  <div>
+    <br/>
+    <h3 class="jumbotron" style="text-align:center;">No Doctor Available</h3>
+  </div>
