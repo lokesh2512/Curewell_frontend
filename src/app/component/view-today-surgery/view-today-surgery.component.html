@@ -1,38 +1,46 @@
-<h2 align="center" style="margin-top: 2%;">
-    View Today's Surgery
-  </h2>
-  <div class="body">
-    <div class="table-responsive">
-  
-      <table align="center" class="table" style="border:2px solid rgba(220,230,242,1);">
-        <tr style="background-color:rgb(111, 185, 222); font-size:12pt">
-          <th>Surgery Id</th>
-          <th>Doctor Id</th>
-          <th>Surgery Date</th>
-          <th>End Time</th>
-          <th>Start Time</th>
-          <th>Surgery Category</th>
-          <th style="text-align:center" colspan="1">Action</th>
-        </tr>
-  
-        <tr style="background-color:white">
-  
-          <td>surgeryId</td>
-          <td>doctorId</td>
-          <td>surgeryDate</td>
-          <td>endTime</td>
-          <td>startTime</td>
-          <td>surgeryCategory</td>
-          <td>
-            <!--Add angular form logic here-->
-            <button class="btn" style="margin-left: 30%;" [routerLink]="['/editsurgery']" routerLinkActive="router-link-active" >Edit Surgery Time</button>
-          </td>
-        </tr>
-      </table>
-      
-    </div>
+<h2 align="center" style="margin-top: 2%">View Today's Surgery</h2>
+<div class="body">
+  <div class="table-responsive">
+    <table
+      align="center"
+      class="table"
+      style="border: 2px solid rgba(220, 230, 242, 1)"
+    >
+      <tr style="background-color: rgb(111, 185, 222); font-size: 12pt">
+        <th>Surgery Ids</th>
+        <th>Doctor Ids</th>
+        <th>Surgery Date</th>
+        <th>End Time</th>
+        <th>Start Time</th>
+        <th>Surgery Category</th>
+        <th style="text-align: center" colspan="1">Action</th>
+      </tr>
+
+      <tr style="background-color: white">
+        <td>surgeryId</td>
+        <td>doctorId</td>
+        <td>surgeryDate</td>
+        <td>endTime</td>
+        <td>startTime</td>
+        <td>surgeryCategory</td>
+        <td>
+          <!--Add angular form logic here-->
+          <button
+            class="btn"
+            style="margin-left: 30%"
+            [routerLink]="['/editsurgery']"
+            routerLinkActive="router-link-active"
+          >
+            Edit Surgery Time
+          </button>
+        </td>
+      </tr>
+    </table>
   </div>
-  <div>
-    <br />
-    <h3 class="jumbotron" style="text-align:center;">No Surgery Details Available</h3>
-  </div>
+</div>
+<div>
+  <br />
+  <h3 class="jumbotron" style="text-align: center">
+    No Surgery Details Available
+  </h3>
+</div>
